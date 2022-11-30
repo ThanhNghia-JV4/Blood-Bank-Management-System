@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css"text/css">
+	<link rel="icon" type="image/png" sizes="16x16"  href="favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
+	<title>Admin</title>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+  background: rgb(128, 128, 128);;
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  	float: left;
+  	border-right:1px solid #bbb;
+	border-radius: 15px;
+}
+
+li:last-child {
+  border-right: none;
+    color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+li a:hover:not(.active) {
+  background: #F1F1F1;
+  color: #333;
+}
+
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="home.jsp">Home</a></li>
+  <li><a href="addNewDonor.jsp">Add New Donor</a></li>
+  <li><a href="editDeleteList.jsp">Edit,Delete & List of Donor</a></li>
+  <li><a href="manageStock.jsp">Manage Stock</a></li>
+  <li><a href="requestForFind.jsp">Request for Find Doctor</a></li>
+  <li><a href="requestForBlood.jsp">Request for Blood</a></li>
+  <li><a href="requestCompleted.jsp">Request Completed</a></li>
+  <li><a href="addNews.jsp">Add News</a></li>
+  <li><a href="manageNews.jsp">Manage News</a></li>
+  <li><a href="requestForQuestion.jsp">Aws</a></li>
+  <li style="float:right"><a href="adminLogin.jsp">Logout</a></li>
+</ul>
+
+</body>
+</html>
